@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Silk-Dragone2
+Comment=A dark green flat theme with transparent elements and Windows' style titlebars
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Silk-Dragone2
+MetacityTheme=Silk-Dragone2
+IconTheme=Papirus-Dark
+CursorTheme=Simp-1e-Breeze-Snow
+ButtonLayout=menu:minimize,maximize,close
