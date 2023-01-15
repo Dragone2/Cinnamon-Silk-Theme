@@ -4042,7 +4042,7 @@ separator {
     border: none; }
 
 headerbar, headerbar:not(.titlebar) {
-  max-height: 16px;
+  /* max-height: 16px; */
   padding: 4px 8px;
   border-width: 0;
   border-style: solid;
