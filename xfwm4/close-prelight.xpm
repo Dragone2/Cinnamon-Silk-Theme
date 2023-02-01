@@ -1,7 +1,7 @@
 /* XPM */
 static char * close_prelight_xpm[] = {
 "45 32 3 1",
-" 	c #E81123",
+" 	c #0E710E",
 ".	c #E81123",
 "+	c #FFFFFF",
 "                                             ",

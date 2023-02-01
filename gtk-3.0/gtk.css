@@ -783,7 +783,7 @@ separator:first-child + headerbar, separator:first-child + headerbar:backdrop, h
     border-radius: 0; }
 
 headerbar:last-child, headerbar:last-child:backdrop {
-  border-top-right-radius: 8px; }
+  border-top-right-radius: 0px; }
   .maximized headerbar:last-child, .tiled headerbar:last-child, .maximized headerbar:last-child:backdrop, .tiled headerbar:last-child:backdrop {
     border-radius: 0; }
 
@@ -3879,10 +3879,10 @@ list.content > row.expander:checked:not(:first-child), list.content > row.expand
   margin: 0; }
 
 hdyleaflet:last-child headerbar {
-  border-top-right-radius: 8px; }
+  border-top-right-radius: 0px; }
 
 hdyleaflet:first-child headerbar {
-  border-top-left-radius: 8px; }
+  border-top-left-radius: 0px; }
 
 /* ---------------- CUSTOM PERSONALIZATION --------------- */
 

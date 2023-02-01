@@ -2594,8 +2594,8 @@ window.dialog.message .titlebar {
   background-image: none;
   background-color: #2b2b2b;
   border-bottom: 1px solid #191919;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px; }
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px; }
 
 window.dialog.message .dialog-action-area button {
   padding: 8px;
