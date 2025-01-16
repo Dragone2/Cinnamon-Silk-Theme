@@ -1,5 +1,5 @@
 # Cinnamon-Silk-Theme
-My custom green theme for **Linux Mint 21** - Cinnamon based on Silk and Windows 10 Dark.
+My custom green theme for **Linux Mint 22** - Cinnamon based on Silk and Windows 10 Dark.
 It's a theme with green Windows 10/11 style window borders and transparency.
 ## Desktop Preview
 ![Desktop Preview](/cinnamon/thumbnail.png?raw=true "Desktop Preview")

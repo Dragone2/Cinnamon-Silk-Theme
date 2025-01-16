@@ -1193,7 +1193,7 @@ border-radius: 0px;
  * End session dialog
  * ===================================================================*/
 
-.end-session-dialog {
+/*.end-session-dialog {
     spacing: 42px;
 }
 
@@ -1278,7 +1278,7 @@ border-radius: 0px;
 .end-session-dialog-app-list-item-description {
     font-size: 8pt;
     color: #444444;
-}
+}*/
 
 /* CinnamonMountOperation Dialogs */
 .cinnamon-mount-operation-icon {
@@ -1786,6 +1786,100 @@ border-radius: 1px;
 	background-color: rgba(86,183,77,1);
  	color: #fff;
 }
+.window-list-preview {
+  spacing: 6px;
+  color: #e1e1e1;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background-color: #222222;
+  border-radius: 3px;
+  padding: 6px 12px 12px 12px;
+  font-size: 1em; }
+
+.grouped-window-list-item-label {
+  font-weight: bold;
+  width: 15em;
+  min-width: 5px; }
+
+.grouped-window-list-item-box {
+  text-align: left;
+  font-weight: bold;
+  background-image: none;
+  padding-top: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  transition-duration: 100;
+  color: rgba(225, 225, 225, 0.8); }
+  .grouped-window-list-item-box.top, .grouped-window-list-item-box.bottom {
+    border-bottom-width: 2px; }
+    .grouped-window-list-item-box.top StLabel, .grouped-window-list-item-box.bottom StLabel {
+      padding-left: 2px; }
+  .grouped-window-list-item-box.right {
+    padding-left: 0px;
+    padding-right: 0px;
+    border-right-width: 2px; }
+    .grouped-window-list-item-box.right StBin {
+      padding-right: 0; }
+  .grouped-window-list-item-box.left {
+    padding-left: 0px;
+    padding-right: 0px;
+    border-left-width: 2px; }
+    .grouped-window-list-item-box.left StBin {
+      padding-left: 1px; }
+  .grouped-window-list-item-box:hover, .grouped-window-list-item-box:focus {
+    color: #e1e1e1;
+    background-color: rgba(225, 225, 225, 0.3); }
+  .grouped-window-list-item-box:active, .grouped-window-list-item-box:checked {
+    color: #e1e1e1;
+    border-color: #35a854; }
+  .grouped-window-list-item-box .progress {
+    background-color: rgba(53, 168, 84, 0.8); }
+
+.grouped-window-list-item-demands-attention {
+  background-gradient-direction: vertical;
+  background-gradient-start: #F04A50;
+  background-gradient-end: #F04A50; }
+
+.grouped-window-list-thumbnail-label {
+  padding-left: 4px; }
+
+.grouped-window-list-number-label {
+  font-size: 0.8em;
+  z-index: 99;
+  color: #ffffff; }
+
+.grouped-window-list-badge {
+  border-radius: 9999px;
+  background-color: #35a854;
+  margin: 0; }
+
+.grouped-window-list-button-label {
+  padding-left: 4px; }
+
+.grouped-window-list-thumbnail-alert {
+  background: rgba(255, 52, 52, 0.3); }
+
+.grouped-window-list-thumbnail-menu {
+  color: #e1e1e1;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background-color: #222222;
+  border-radius: 3px;
+  padding: 0px; }
+  .grouped-window-list-thumbnail-menu > StBoxLayout {
+    padding: 4px; }
+  .grouped-window-list-thumbnail-menu .item-box {
+    padding: 10px;
+    border-radius: 2px;
+    spacing: 4px; }
+    .grouped-window-list-thumbnail-menu .item-box:outlined {
+      padding: 8px;
+      border: 1px solid #35a854; }
+    .grouped-window-list-thumbnail-menu .item-box:selected {
+      border: 1px solid #35a854; }
+  .grouped-window-list-thumbnail-menu .thumbnail {
+    width: 256px; }
+  .grouped-window-list-thumbnail-menu .separator {
+    width: 1px;
+    background: rgba(255, 255, 255, 0.2); }
 
 /* ===================================================================
  * Sound Applet (status/volume.js)
@@ -2284,3 +2378,14 @@ The colour parameters are red, green, blue, and transparency or a name */
     border-right-width: 0px;
     border-radius: 8px 0px 0px 0px;
 }
+.applet-cornerbar {
+  width: 8px;
+  background-color: rgba(0, 70, 0, 0.801);
+  border: 1px solid rgba(134, 170, 134, 0.5); }
+  .applet-cornerbar.vertical {
+    height: 8px; }
+  .applet-cornerbar-box {
+    background: none; }
+
+.applet-cornerbar-box:hover > .applet-cornerbar {
+  background-color: rgba(134, 170, 134, 0.5); }
