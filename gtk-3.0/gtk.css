@@ -4520,3 +4520,4 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_button_active_color_b shade(#0E710E, 0.89);
 @define-color wm_button_active_color_c shade(#0E710E, 0.9);
 @define-color content_view_bg #0E710E;
+@define-color accent_color #9ab87c;
